@@ -1,0 +1,143 @@
+/* General Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #086c85;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center the navigation links */
+}
+
+nav ul li {
+    margin: 0 15px; /* Adjust spacing between links */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.button {
+    background: #064959;
+    padding: 10px 15px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#welcome_img {
+    display: block;         /* Makes the image a block element */
+    margin-left: auto;     /* Centers the image horizontally */
+    margin-right: auto;    /* Centers the image horizontally */
+    width: 50%;            /* Sets the width to 80% of its original size (20% smaller) */
+    height: auto;          /* Maintains the aspect ratio */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+/*Allows the centering of all of the main headers.*/
+.hero {
+    text-align: center;  /* Centers the text horizontally */
+    margin: 20px 0;     /* Adds vertical space above and below the header */
+}
+
+/*Puts the dictionary button at the bottom of the page in the center.*/
+#asl_but {
+	text-align: Center;
+	margin:0;
+}
+/*Centers paragraphs*/
+.hero_center {
+	text-align: center;
+	margin-right:10px;
+}
+
+.flex-container {
+    display: flex; /* Enables flexbox */
+    flex-wrap: wrap; /* Allows items to wrap to the next line if needed */
+    justify-content: space-between; /* Space items evenly */
+}
+
+.flex-item {
+    flex: 1; /* Each item takes equal space */
+    min-width: 250px; /* Minimum width for each item */
+    margin: 10px; /* Spacing between items */
+}
+
+footer {
+    text-align: center;
+    background: #064959;
+    color: #fff;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/*Forum.html CSS*/
+form {
+    max-width: 500px; /* Limit the width of the form */
+    margin: 20px auto; /* Center the form */
+    padding: 20px;
+    border: 1px solid #064959; /* Border color */
+    border-radius: 10px; /* Rounded corners */
+    background: #f9f9f9; /* Background color */
+}
+
+label {
+    display: block; /* Make labels block elements */
+    margin: 10px 0 5px; /* Spacing */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%; /* Full width */
+    padding: 8px; /* Inner spacing */
+    margin-bottom: 15px; /* Space below input */
+    border: 1px solid #064959; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+}
+
+fieldset {
+    border: 1px solid #064959; /* Fieldset border color */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Inner spacing */
+}
+
+legend {
+    font-weight: bold; /* Bold text for legend */
+}
+
+button {
+    background: #064959; /* Button background */
+    color: white; /* Button text color */
+    padding: 10px 15px; /* Inner spacing */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+}
+
+button:hover {
+    background: #064959; /* Darker green on hover */
+}
+/*End of forum.html css*//

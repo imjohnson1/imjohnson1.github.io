@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Aggies Sign</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the external CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Join Aggies Sign</h1> <!-- Main title for the page -->
+    </header>
+
+    <main>
+        <form id="join-form"> <!-- Start of the join form -->
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first-name" required> <!-- Input for first name -->
+
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last-name" required> <!-- Input for last name -->
+
+            <label for="email">School Email:</label>
+            <input type="email" id="email" name="email" required> <!-- Input for email -->
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required> <!-- Input for phone number -->
+
+            <fieldset> <!-- Fieldset for grouping hearing status options -->
+                <legend>Hearing Status:</legend> <!-- Legend for the fieldset -->
+                <label>
+                    <input type="radio" name="hearing-status" value="hearing" required> Hearing <!-- Radio button for hearing -->
+                </label>
+                <label>
+                    <input type="radio" name="hearing-status" value="hard-of-hearing"> Hard of Hearing <!-- Radio button for hard of hearing -->
+                </label>
+                <label>
+                    <input type="radio" name="hearing-status" value="deaf"> Deaf <!-- Radio button for deaf -->
+                </label>
+            </fieldset>
+
+            <button type="submit">Join Club</button> <!-- Submit button for the form -->
+        </form> <!-- End of the join form -->
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Aggies Sign. All rights reserved.</p> <!-- Copyright information -->
+        <p><a href="https://validator.w3.org/#validate_by_uri" target="_blank">HTML Validation</a> | 
+           <a href="https://jigsaw.w3.org/css-validator/" target="_blank">CSS Validation</a></p> <!-- Validation links -->
+    </footer>
+</body>
+</html>
